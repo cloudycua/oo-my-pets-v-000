@@ -33,7 +33,7 @@ class Owner
   end
 
   def walk_dogs
-    "happy"
+    self.pets[:dogs]"happy"
   end
 
 end
