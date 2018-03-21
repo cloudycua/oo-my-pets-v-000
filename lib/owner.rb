@@ -16,4 +16,8 @@ class Owner
     "I am a #{species}."
   end
 
+  def buy_fish(pet_name)
+    new_fish = Fish.new(pet_name)
+  end
+  
 end
