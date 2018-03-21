@@ -49,7 +49,6 @@ class Owner
       {pet.each |p| p.mood = "nervous"}
       type.clear
     end
-    @pets = {fishes: [], dogs: [], cats: []}
   end
 
 end
