@@ -1,9 +1,10 @@
 class Owner
-  attr_reader :species :pet
+  attr_reader :species :pets
   attr_accessor :name
 
   def initialize(species)
     @species = species
+    @pets
   end
 
   def say_species
