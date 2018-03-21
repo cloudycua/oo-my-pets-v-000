@@ -8,10 +8,10 @@ class Owner
     @pets = {fishes: [], dogs: [], cats: []}
   end
 
-  #def self.all
-  #  @@all
-  #end
-#
+  def self.all
+    @@all
+  end
+
   def say_species
     "I am a #{species}."
   end
